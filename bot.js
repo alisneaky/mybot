@@ -1,4 +1,4 @@
-var token = 'xoxb-139879501254-BpgpJFMMGIBiMznMbBq7eJ1E'; //slack bot api key
+var token = 'process.env.SLACK_TOKEN'; //slack bot api key
 
 var Botkit = require('botkit');
 var http = require('http');
